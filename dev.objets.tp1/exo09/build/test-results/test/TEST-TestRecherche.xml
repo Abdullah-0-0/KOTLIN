@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRecherche" tests="4" skipped="0" failures="4" errors="0" timestamp="2026-01-28T16:49:26" hostname="ubuntu" time="0.002">
+  <properties/>
+  <testcase name="recherche1()" classname="TestRecherche" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.recherche(Exo9.kt:38)
+	at TestRecherche.recherche1(TestRecherche.kt:11)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="recherche2()" classname="TestRecherche" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.recherche(Exo9.kt:38)
+	at TestRecherche.recherche2(TestRecherche.kt:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="recherche6()" classname="TestRecherche" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.recherche(Exo9.kt:38)
+	at TestRecherche.recherche6(TestRecherche.kt:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="recherche42()" classname="TestRecherche" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.recherche(Exo9.kt:38)
+	at TestRecherche.recherche42(TestRecherche.kt:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestEnsemble" tests="8" skipped="0" failures="8" errors="0" timestamp="2026-01-28T16:49:26" hostname="ubuntu" time="0.002">
+  <properties/>
+  <testcase name="pasEnsemble1()" classname="TestEnsemble" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.estEnsemble(Exo9.kt:54)
+	at TestEnsemble.pasEnsemble1(TestEnsemble.kt:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="pasEnsemble2()" classname="TestEnsemble" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.estEnsemble(Exo9.kt:54)
+	at TestEnsemble.pasEnsemble2(TestEnsemble.kt:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="pasEnsemble3()" classname="TestEnsemble" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.estEnsemble(Exo9.kt:54)
+	at TestEnsemble.pasEnsemble3(TestEnsemble.kt:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="pasEnsemble6()" classname="TestEnsemble" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.estEnsemble(Exo9.kt:54)
+	at TestEnsemble.pasEnsemble6(TestEnsemble.kt:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="pasEnsemble8()" classname="TestEnsemble" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.estEnsemble(Exo9.kt:54)
+	at TestEnsemble.pasEnsemble8(TestEnsemble.kt:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="estEnsemble1()" classname="TestEnsemble" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.estEnsemble(Exo9.kt:54)
+	at TestEnsemble.estEnsemble1(TestEnsemble.kt:11)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="estEnsemble2()" classname="TestEnsemble" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.estEnsemble(Exo9.kt:54)
+	at TestEnsemble.estEnsemble2(TestEnsemble.kt:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="estEnsemble7()" classname="TestEnsemble" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.estEnsemble(Exo9.kt:54)
+	at TestEnsemble.estEnsemble7(TestEnsemble.kt:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

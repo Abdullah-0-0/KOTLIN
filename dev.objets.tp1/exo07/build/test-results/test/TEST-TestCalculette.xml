@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCalculette" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-01-28T16:37:15" hostname="ubuntu" time="0.014">
+  <properties/>
+  <testcase name="2 + 3 == 5()" classname="TestCalculette" time="0.012"/>
+  <testcase name="2 + 4 == 6()" classname="TestCalculette" time="0.001"/>
+  <testcase name="3 x 3 == 9()" classname="TestCalculette" time="0.001"/>
+  <testcase name="2 x 2 == 4()" classname="TestCalculette" time="0.0"/>
+  <testcase name="2 x 3 == 6()" classname="TestCalculette" time="0.0"/>
+  <system-out><![CDATA[[2 + 3]
+[2 + 4]
+[3 x 3]
+[2 x 2]
+[2 x 3]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

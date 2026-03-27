@@ -1,0 +1,64 @@
+package testexo1
+
+import exo1.Magicien
+import exo1.Personnage
+import exo1.Sort
+import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.Test
+
+class TestsConstructeurs {
+
+    @Test
+    fun perso_listeOk1() {
+        val perso = Personnage("Conan", 9,5,1)
+        Assertions.assertEquals("FOR=9,AGI=5,INT=1", perso.listeCaracteristiques())
+    }
+
+    @Test
+    fun perso_listeOk2() {
+        val perso = Personnage("Sherlock Holmes", 3, 3,9)
+        Assertions.assertEquals("FOR=3,AGI=3,INT=9", perso.listeCaracteristiques())
+    }
+
+    @Test
+    fun perso_liste_KO1() {
+        val perso = Personnage("Machin", 12, 3,1)
+        Assertions.assertEquals("FOR=5,AGI=5,INT=5", perso.listeCaracteristiques())
+    }
+
+    @Test
+    fun perso_liste_KO2() {
+        val perso = Personnage("Bidule", 1, 16,1)
+        Assertions.assertEquals("FOR=5,AGI=5,INT=5", perso.listeCaracteristiques())
+    }
+
+    @Test
+    fun perso_liste_OK3() {
+        val perso = Personnage("Bidule", 4, 3,8)
+        Assertions.assertEquals("FOR=4,AGI=3,INT=8", perso.listeCaracteristiques())
+    }
+
+    @Test
+    fun perso_liste_mag1() {
+        val perso = Magicien("Bidule", 4, 3,8, 5, Sort("", ""))
+        Assertions.assertEquals("FOR=4,AGI=3,INT=8,MAG=5", perso.listeCaracteristiques())
+    }
+
+    @Test
+    fun perso_liste_mag8() {
+        val perso = Magicien("Bidule", 4, 3,8, 8, Sort("", ""))
+        Assertions.assertEquals("FOR=4,AGI=3,INT=8,MAG=8", perso.listeCaracteristiques())
+    }
+
+    @Test
+    fun perso_liste_mag_ko0() {
+        val perso = Magicien("Bidule", 4, 3,8, 0, Sort("", ""))
+        Assertions.assertEquals("FOR=4,AGI=3,INT=8,MAG=1", perso.listeCaracteristiques())
+    }
+
+    @Test
+    fun perso_liste_mag_ko10() {
+        val perso = Magicien("Bidule", 4, 3,8, 10, Sort("", ""))
+        Assertions.assertEquals("FOR=4,AGI=3,INT=8,MAG=1", perso.listeCaracteristiques())
+    }
+}

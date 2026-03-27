@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestUmlVecteur" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-03-06T10:20:02" hostname="ubuntu" time="0.26">
+  <properties/>
+  <testcase name="test6 - 'Vecteur' has an attribute 'destination'()" classname="TestUmlVecteur" time="0.248"/>
+  <testcase name="test0 - class Vecteur is abstract or not()" classname="TestUmlVecteur" time="0.001"/>
+  <testcase name="test4 - 'Vecteur' has attribute(s)()" classname="TestUmlVecteur" time="0.001"/>
+  <testcase name="test5 - 'Vecteur' has an attribute 'origine'()" classname="TestUmlVecteur" time="0.0"/>
+  <testcase name="test7 - 'Vecteur' has method(s)()" classname="TestUmlVecteur" time="0.0"/>
+  <testcase name="test3 - 'Vecteur' has a constructor()" classname="TestUmlVecteur" time="0.003"/>
+  <testcase name="test10 - 'Vecteur' has a method 'toString'()" classname="TestUmlVecteur" time="0.001"/>
+  <testcase name="test8 - 'Vecteur' has a method 'distanceX'()" classname="TestUmlVecteur" time="0.0"/>
+  <testcase name="test1 - class Vecteur is open or not()" classname="TestUmlVecteur" time="0.001"/>
+  <testcase name="test9 - 'Vecteur' has a method 'distanceY'()" classname="TestUmlVecteur" time="0.0"/>
+  <testcase name="test2 - 'Vecteur' extends other classe(s)()" classname="TestUmlVecteur" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

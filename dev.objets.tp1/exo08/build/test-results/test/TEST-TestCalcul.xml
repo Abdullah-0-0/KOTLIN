@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCalcul" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-28T16:43:43" hostname="ubuntu" time="0.001">
+  <properties/>
+  <testcase name="calculMin5()" classname="TestCalcul" time="0.0"/>
+  <testcase name="calcul10()" classname="TestCalcul" time="0.0"/>
+  <testcase name="calcul0()" classname="TestCalcul" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

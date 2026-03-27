@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPremier" tests="41" skipped="0" failures="0" errors="0" timestamp="2026-01-28T16:43:43" hostname="ubuntu" time="0.028">
+  <properties/>
+  <testcase name="estPremier2" classname="TestPremier" time="0.008"/>
+  <testcase name="estPremier3" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier5" classname="TestPremier" time="0.001"/>
+  <testcase name="estPremier7" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier11" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier13" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier17" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier19" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier23" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier29" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier31" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier37" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier41" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier43" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier47" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier53" classname="TestPremier" time="0.001"/>
+  <testcase name="estPremier59" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier61" classname="TestPremier" time="0.001"/>
+  <testcase name="estPremier67" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier71" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier73" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier79" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier83" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier89" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier97" classname="TestPremier" time="0.0"/>
+  <testcase name="estPremier102647" classname="TestPremier" time="0.001"/>
+  <testcase name="estPremier2147483647" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier-2147483648" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier-10" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier0" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier1" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier4" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier6" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier8" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier9" classname="TestPremier" time="0.001"/>
+  <testcase name="nEstPasPremier10" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier12" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier14" classname="TestPremier" time="0.001"/>
+  <testcase name="nEstPasPremier15" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier16" classname="TestPremier" time="0.0"/>
+  <testcase name="nEstPasPremier102647032" classname="TestPremier" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

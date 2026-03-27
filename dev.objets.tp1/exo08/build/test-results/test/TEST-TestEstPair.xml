@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestEstPair" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-01-28T16:43:43" hostname="ubuntu" time="0.007">
+  <properties/>
+  <testcase name="estPair0" classname="TestEstPair" time="0.0"/>
+  <testcase name="estPair2" classname="TestEstPair" time="0.0"/>
+  <testcase name="estPair4" classname="TestEstPair" time="0.001"/>
+  <testcase name="estPair6" classname="TestEstPair" time="0.0"/>
+  <testcase name="estPair8" classname="TestEstPair" time="0.0"/>
+  <testcase name="estPair10" classname="TestEstPair" time="0.001"/>
+  <testcase name="estPair100" classname="TestEstPair" time="0.0"/>
+  <testcase name="estPair20000" classname="TestEstPair" time="0.001"/>
+  <testcase name="estPair-10" classname="TestEstPair" time="0.0"/>
+  <testcase name="estPair-2147483648" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair1" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair3" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair5" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair7" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair101" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair20003" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair-5" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair-10007" classname="TestEstPair" time="0.0"/>
+  <testcase name="nEstPasPair2147483647" classname="TestEstPair" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

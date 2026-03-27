@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestEnvers" tests="5" skipped="0" failures="5" errors="0" timestamp="2026-01-28T16:49:26" hostname="ubuntu" time="0.002">
+  <properties/>
+  <testcase name="envers10()" classname="TestEnvers" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.envers(Exo9.kt:68)
+	at TestEnvers.envers10(TestEnvers.kt:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="envers11()" classname="TestEnvers" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.envers(Exo9.kt:68)
+	at TestEnvers.envers11(TestEnvers.kt:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="envers1()" classname="TestEnvers" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.envers(Exo9.kt:68)
+	at TestEnvers.envers1(TestEnvers.kt:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="envers2()" classname="TestEnvers" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.envers(Exo9.kt:68)
+	at TestEnvers.envers2(TestEnvers.kt:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="envers3()" classname="TestEnvers" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.envers(Exo9.kt:68)
+	at TestEnvers.envers3(TestEnvers.kt:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestEgalite" tests="8" skipped="0" failures="8" errors="0" timestamp="2026-01-28T16:49:26" hostname="ubuntu" time="0.006">
+  <properties/>
+  <testcase name="sontPasEgaux_plusGrand()" classname="TestEgalite" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.egalite(Exo9.kt:90)
+	at TestEgalite.sontPasEgaux_plusGrand(TestEgalite.kt:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="sontPasEgaux_plusPetit()" classname="TestEgalite" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.egalite(Exo9.kt:90)
+	at TestEgalite.sontPasEgaux_plusPetit(TestEgalite.kt:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="sontEgaux1()" classname="TestEgalite" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.egalite(Exo9.kt:90)
+	at TestEgalite.sontEgaux1(TestEgalite.kt:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="sontEgaux2()" classname="TestEgalite" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.egalite(Exo9.kt:90)
+	at TestEgalite.sontEgaux2(TestEgalite.kt:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="sontEgaux5()" classname="TestEgalite" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.egalite(Exo9.kt:90)
+	at TestEgalite.sontEgaux5(TestEgalite.kt:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="sontEgaux7()" classname="TestEgalite" time="0.0">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.egalite(Exo9.kt:90)
+	at TestEgalite.sontEgaux7(TestEgalite.kt:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="sontPasEgaux_Different1()" classname="TestEgalite" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.egalite(Exo9.kt:90)
+	at TestEgalite.sontPasEgaux_Different1(TestEgalite.kt:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="sontPasEgaux_Different2()" classname="TestEgalite" time="0.001">
+    <failure message="kotlin.NotImplementedError: An operation is not implemented." type="kotlin.NotImplementedError">kotlin.NotImplementedError: An operation is not implemented.
+	at Exo9Kt.egalite(Exo9.kt:90)
+	at TestEgalite.sontPasEgaux_Different2(TestEgalite.kt:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
