@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPileChaineeUsage" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-09T15:47:11" hostname="u-inf-j-e113-05" time="0.006">
+  <properties/>
+  <testcase name="pile vide depiler()" classname="TestPileChaineeUsage" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

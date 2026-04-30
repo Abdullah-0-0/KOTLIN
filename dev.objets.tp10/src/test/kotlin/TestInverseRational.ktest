@@ -1,0 +1,35 @@
+import iut.math.Rational
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.assertThrows
+
+class TestInverseRational {
+
+
+    @Test
+    fun testInverse1() {
+        val a = Rational(1, 2)
+        val inverse = a.inverse()
+        assertEquals(Rational(2, 1), inverse)
+    }
+
+
+    @Test
+    fun testInverse2() {
+        val a = Rational(4, 3)
+        val inverse = a.inverse()
+        assertEquals(Rational(3, 4), inverse)
+    }
+
+    @Test
+    fun testInverse3() {
+        val a = Rational(-1, 2)
+        val inverse = a.inverse()
+        assertEquals(Rational(-2, 1), inverse)
+    }
+
+    @Test
+    fun testInverseErreur() {
+        assertThrows<ArithmeticException> { Rational(0,4).inverse() }
+    }
+}

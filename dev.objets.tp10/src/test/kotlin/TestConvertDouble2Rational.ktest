@@ -1,0 +1,97 @@
+import iut.math.Rational
+import iut.math.toRational
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.assertAll
+import kotlin.math.PI
+
+class TestConvertDouble2Rational {
+
+    @Test
+    fun test_1_3Rational_0() {
+        val aDouble = 1.0/3
+        val result = toRational(aDouble, 0)
+        val expected = Rational(0)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(aDouble, result.toDouble(), 1.0) })
+    }
+
+    @Test
+    fun test_1_3Rational_1() {
+        val aDouble = 1.0/3
+        val result = toRational(aDouble, 1).reduce()
+        val expected = Rational(3, 10)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(aDouble, result.toDouble(), 0.1) })
+    }
+
+    @Test
+    fun test_1_3Rational_2() {
+        val aDouble = 1.0/3
+        val result = toRational(aDouble, 2).reduce()
+        val expected = Rational(33, 100)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(aDouble, result.toDouble(), 0.01) })
+    }
+
+    @Test
+    fun test_1_3Rational_8() {
+        val aDouble = 1.0/3
+        val result = toRational(aDouble, 8).reduce()
+        val expected = Rational(33_333_333, 100_000_000)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(aDouble, result.toDouble(), 0.00000001) })
+    }
+
+    @Test
+    fun test_3_2Rational_8() {
+        val aDouble = 3.0/2
+        val result = toRational(aDouble, 8).reduce()
+        val expected = Rational(3, 2)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(aDouble, result.toDouble(), 0.00000001) })
+    }
+
+    @Test
+    fun test_4_3Rational_8() {
+        val aDouble = 4.0/3
+        val result = toRational(aDouble, 8).reduce()
+        val expected = Rational(133_333_333, 100_000_000)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(aDouble, result.toDouble(), 0.00000001) })
+    }
+
+
+    @Test
+    fun test_PI_Rational_0() {
+        val result = toRational(PI, 0).reduce()
+        val expected = Rational(3)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(PI, result.toDouble(), 1.0) })
+    }
+
+    @Test
+    fun test_PI_Rational_1() {
+        val result = toRational(PI, 1).reduce()
+        val expected = Rational(31, 10)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(PI, result.toDouble(), 0.1) })
+    }
+
+    @Test
+    fun test_PI_Rational_8() {
+        val result = toRational(PI, 8).reduce()
+        val expected = Rational(62831853, 20000000)
+        assertAll(
+            { assertEquals(expected, result) },
+            { assertEquals(PI, result.toDouble(), 0.00000001) })
+    }
+}

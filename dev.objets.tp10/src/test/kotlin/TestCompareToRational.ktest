@@ -1,0 +1,104 @@
+import iut.math.Rational
+import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Test
+
+class TestCompareToRational {
+
+    var r12 = Rational(1, 2)
+    var r23 = Rational(2, 3)
+    var r43 = Rational(4, 3)
+    var r36 = Rational(3,6)
+
+    @Test
+    fun testCompareTo1() {
+        assertTrue(-1 >= r12.compareTo(r23))
+    }
+
+    @Test
+    fun testCompareTo2() {
+        assertTrue(-1 >= r12.compareTo(r43))
+    }
+
+    @Test
+    fun testCompareTo12() {
+        assertTrue(1 <= r23.compareTo(r12))
+    }
+
+    @Test
+    fun testCompareTo22() {
+        assertTrue(1 <= r43.compareTo(r12))
+    }
+
+    @Test
+    fun testCompareTo3() {
+        assertEquals(0, r12.compareTo(r36))
+    }
+
+    @Test
+    fun testCompareTo5() {
+        val r42 = Rational(4, 2)
+        assertEquals(0, r42.compareTo(2))
+    }
+
+    @Test
+    fun test0() {
+        assertTrue(r12 <= r12)
+        assertTrue(r12 >= Rational(1, 2))
+        assertTrue(Rational(2, 4) <= r12)
+    }
+
+    @Test
+    fun test1() {
+        assertTrue(r12 < r23)
+        assertFalse(r12 > r23)
+    }
+
+    @Test
+    fun test2() {
+        assertTrue(r23 < r43)
+        assertFalse(r43 < r23)
+    }
+
+    @Test
+    fun test3() {
+        assertTrue(r12 < r43)
+        assertFalse(r43 < r12)
+    }
+
+    @Test
+    fun test4() {
+        assertFalse(r12 < r36)
+        assertTrue(r36 >= r12)
+    }
+
+    @Test
+    fun test5() {
+        assertTrue(r12 <= Rational(-3,-6))
+    }
+
+
+    @Test
+    fun test52() {
+        assertTrue(r12 > Rational(-3,6))
+    }
+
+
+    @Test
+    fun test6() {
+        assertTrue(Rational(1,-2) >= Rational(-3,6))
+    }
+
+    @Test
+    fun testInt1() {
+        assertTrue(r12 <= 1)
+    }
+
+    @Test
+    fun testInt2() {
+        assertTrue(r12 > -1)
+    }
+
+
+}
+
+
