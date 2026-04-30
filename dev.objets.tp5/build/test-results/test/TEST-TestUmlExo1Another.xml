@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestUmlExo1Another" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-03-16T14:02:06" hostname="ubuntu" time="0.004">
+  <properties/>
+  <testcase name="test4 - 'Another' has method(s)()" classname="TestUmlExo1Another" time="0.001"/>
+  <testcase name="test0 - class Another is abstract or not()" classname="TestUmlExo1Another" time="0.0"/>
+  <testcase name="test1 - class Another is open or not()" classname="TestUmlExo1Another" time="0.0"/>
+  <testcase name="test3 - 'Another' has attribute(s)()" classname="TestUmlExo1Another" time="0.0"/>
+  <testcase name="test2 - 'Another' extends other classe(s)()" classname="TestUmlExo1Another" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
