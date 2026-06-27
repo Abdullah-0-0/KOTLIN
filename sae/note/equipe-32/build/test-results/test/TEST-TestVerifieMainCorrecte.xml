@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestVerifieMainCorrecte" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.007">
+  <properties/>
+  <testcase name="main avec sept CarteNum differentes et un bonus est valide()" classname="TestVerifieMainCorrecte" time="0.001"/>
+  <testcase name="CarteStop dans la main leve MainInvalideException()" classname="TestVerifieMainCorrecte" time="0.001"/>
+  <testcase name="doublon de CarteNum leve MainInvalideException()" classname="TestVerifieMainCorrecte" time="0.001"/>
+  <testcase name="main avec une seule CarteNum est valide()" classname="TestVerifieMainCorrecte" time="0.001"/>
+  <testcase name="main vide ne leve pas d exception()" classname="TestVerifieMainCorrecte" time="0.001"/>
+  <testcase name="deux CarteBonusMultiplie levent MainInvalideException()" classname="TestVerifieMainCorrecte" time="0.001"/>
+  <testcase name="une Carte2ndeChance dans la main est valide()" classname="TestVerifieMainCorrecte" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

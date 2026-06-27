@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestConstructeurFlip7CasAdditionnels" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.036">
+  <properties/>
+  <testcase name="scoreFinPartie egal a 0 leve ScoreFinPartieInvalideException()" classname="TestConstructeurFlip7CasAdditionnels" time="0.004"/>
+  <testcase name="une liste de joueurs avec deux fois la meme instance IJoueur est acceptee()" classname="TestConstructeurFlip7CasAdditionnels" time="0.007"/>
+  <testcase name="un IOutilsCarte personnalise injecte au constructeur est reellement utilise()" classname="TestConstructeurFlip7CasAdditionnels" time="0.005"/>
+  <testcase name="scoreFinPartie negatif leve ScoreFinPartieInvalideException()" classname="TestConstructeurFlip7CasAdditionnels" time="0.003"/>
+  <testcase name="nbJoueurs egal a 0 leve NombreJoueursInvalideException()" classname="TestConstructeurFlip7CasAdditionnels" time="0.001"/>
+  <testcase name="debug=true avec une pioche complete de 94 cartes valides ne leve pas d exception()" classname="TestConstructeurFlip7CasAdditionnels" time="0.002"/>
+  <testcase name="scoreFinPartie egal a 50 exactement est accepte (borne basse incluse)()" classname="TestConstructeurFlip7CasAdditionnels" time="0.003"/>
+  <testcase name="nbJoueurs negatif leve NombreJoueursInvalideException()" classname="TestConstructeurFlip7CasAdditionnels" time="0.003"/>
+  <testcase name="scoreFinPartie a une valeur intermediaire non ronde est accepte()" classname="TestConstructeurFlip7CasAdditionnels" time="0.002"/>
+  <testcase name="scoreFinPartie egal a 200 exactement est accepte (borne haute incluse)()" classname="TestConstructeurFlip7CasAdditionnels" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

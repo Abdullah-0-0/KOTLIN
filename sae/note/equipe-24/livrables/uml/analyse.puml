@@ -1,0 +1,52 @@
+@startuml analyse
+title Flip 7 - Diagramme de classes - Niveau Analyse
+hide circle
+hide methods
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+class Partie {
+  scoreLimite
+}
+class Manche
+class Joueur {
+  nom
+  scoreTotal
+  etat
+}
+class Pioche
+class Defausse
+class CartesJoueur
+abstract class Tas
+abstract class Carte
+class CarteNumero {
+  valeur
+}
+abstract class CarteBonus
+class BonusAdditif {
+  valeur
+}
+class BonusFoisDeux
+abstract class CarteSpeciale
+class Stop
+class SecondeChance
+class TroisALaSuite
+Partie "1" -- "2..*" Manche : se deroule en >
+Partie "1" -- "3..*" Joueur : inclut >
+Manche "1" -- "1" Pioche
+Manche "1" -- "1" Defausse
+Manche "*" -- "1" Joueur : donneur >
+Joueur "1" -- "1" CartesJoueur : possede >
+Pioche -down-|> Tas
+Defausse -down-|> Tas
+CartesJoueur -down-|> Tas
+Tas "0..1" -- "0..*" Carte : contient >
+Carte <|-down- CarteNumero
+Carte <|-down- CarteBonus
+Carte <|-down- CarteSpeciale
+CarteBonus <|-down- BonusAdditif
+CarteBonus <|-down- BonusFoisDeux
+CarteSpeciale <|-down- Stop
+CarteSpeciale <|-down- SecondeChance
+CarteSpeciale <|-down- TroisALaSuite
+CarteSpeciale "*" -- "0..1" Joueur : cible >
+@enduml

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CarteBonusPlusTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.005">
+  <properties/>
+  <testcase name="estCarteBonusPlus retourne true()" classname="CarteBonusPlusTest" time="0.001"/>
+  <testcase name="equals fonctionne correctement()" classname="CarteBonusPlusTest" time="0.0"/>
+  <testcase name="valeurs invalides levent IllegalArgumentException()" classname="CarteBonusPlusTest" time="0.0"/>
+  <testcase name="valeurs valides ne levent pas d exception()" classname="CarteBonusPlusTest" time="0.001"/>
+  <testcase name="estCarteNum et estCarteBonusMultiplie retournent false()" classname="CarteBonusPlusTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

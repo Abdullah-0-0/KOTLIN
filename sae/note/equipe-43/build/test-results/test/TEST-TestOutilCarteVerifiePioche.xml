@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOutilCarteVerifiePioche" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-23T05:49:43.493Z" hostname="u-inf-j-c002-24" time="0.013">
+  <properties/>
+  <testcase name="testVerifiePiocheInitialeMoins()" classname="TestOutilCarteVerifiePioche" time="0.004"/>
+  <testcase name="testVerifiePiocheInitialeOk()" classname="TestOutilCarteVerifiePioche" time="0.005"/>
+  <testcase name="testVerifiePiocheInitialePlus()" classname="TestOutilCarteVerifiePioche" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

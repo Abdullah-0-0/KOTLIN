@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestJoueurCourantCibleStop" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.043">
+  <properties/>
+  <testcase name="apres cibleStop sans plus aucun joueur actif la manche se termine()" classname="TestJoueurCourantCibleStop" time="0.003"/>
+  <testcase name="carte passee differente d une CarteStop leve CarteInvalideException()" classname="TestJoueurCourantCibleStop" time="0.003"/>
+  <testcase name="numero cible egal a nbJoueurs leve IndiceJoueurInvalideException()" classname="TestJoueurCourantCibleStop" time="0.003"/>
+  <testcase name="apres cibleStop avec joueur suivant actif l etat revient a ATTENTE_CHOIX_JOUEUR()" classname="TestJoueurCourantCibleStop" time="0.003"/>
+  <testcase name="appel en ATTENTE_CIBLE_STOP avec cible valide fait passer la cible a STOP()" classname="TestJoueurCourantCibleStop" time="0.002"/>
+  <testcase name="la CarteStop ciblee est ajoutee a la main de la cible, pas a la defausse()" classname="TestJoueurCourantCibleStop" time="0.002"/>
+  <testcase name="appel en ATTENTE_CHOIX_JOUEUR leve EtatPartieInvalideException()" classname="TestJoueurCourantCibleStop" time="0.003"/>
+  <testcase name="cibler le joueur courant lui meme()" classname="TestJoueurCourantCibleStop" time="0.002"/>
+  <testcase name="numero cible negatif leve IndiceJoueurInvalideException()" classname="TestJoueurCourantCibleStop" time="0.002"/>
+  <testcase name="cible deja STOP leve JoueurNonActifException()" classname="TestJoueurCourantCibleStop" time="0.009"/>
+  <testcase name="cible PERDU leve JoueurNonActifException()" classname="TestJoueurCourantCibleStop" time="0.002"/>
+  <testcase name="carte passee differente de la derniere carte tiree leve CarteInvalideException()" classname="TestJoueurCourantCibleStop" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

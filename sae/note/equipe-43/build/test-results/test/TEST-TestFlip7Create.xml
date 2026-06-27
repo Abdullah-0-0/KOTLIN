@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestFlip7Create" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-06-23T05:49:43.238Z" hostname="u-inf-j-c002-24" time="0.148">
+  <properties/>
+  <testcase name="[1] 3, 1, -1, false, 200" classname="TestFlip7Create" time="0.075"/>
+  <testcase name="[2] 3, 1, 0, true, 150" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[3] 3, 1, 1, false, -200" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[4] 3, 5, -1, false, 200" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[5] 3, 5, 0, true, 150" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[6] 3, 5, 1, false, -200" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[1] 3, 3, 0, false, -200" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[2] 3, 3, 0, true, -200" classname="TestFlip7Create" time="0.005"/>
+  <testcase name="[1] 3, 3, 0, false, 200" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[2] 3, 3, 0, true, 200" classname="TestFlip7Create" time="0.001"/>
+  <testcase name="[1] -5, 1, -1, false, 200" classname="TestFlip7Create" time="0.005"/>
+  <testcase name="[2] -5, 5, 0, true, 150" classname="TestFlip7Create" time="0.003"/>
+  <testcase name="[3] -5, 0, 1, false, -200" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[4] 5, 1, -1, false, 200" classname="TestFlip7Create" time="0.002"/>
+  <testcase name="[5] 5, 5, 0, true, 150" classname="TestFlip7Create" time="0.001"/>
+  <testcase name="[6] 5, 0, 1, false, -200" classname="TestFlip7Create" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,68 @@
+@startuml flip7
+
+abstract class Carte{
+  -id
+}
+
+class Carte_numerotée{
+  -num
+}
+
+abstract class Carte_spéciale{}
+
+class Stop{}
+
+class SecondeChance{}
+
+class TroisàLaSuite{}
+
+class Multiplication{
+  -facteur
+}
+
+class Addition{
+  -valeur
+}
+
+abstract class Carte_bonus{}
+
+class Joueur{
+  -pseudo
+}
+
+class Score{
+  -pointTotal
+  -nbPointParManche
+}
+
+class Manche{
+  -numManche
+}
+
+class Partie{}
+
+
+Partie "1" --> "1..* \n lstmanches" Manche : la partie a eu pour manches
+Partie"1" --> "2..* \n participants" Joueur : participe
+
+Joueur "1" --> "0..* \n main" Carte : possède comme cartes
+Joueur "1" --> "1 \n scoreGlobal" Score:  a comme score pendant cette partie
+
+Manche "1" --> "0..94 \n lstcartespioche" Carte : Les cartes faisant parties de la pioche sont
+Manche "1" --> "0..94 \n lstcartesdéfausse" Carte : Les cartes faisant parties de la défausse sont
+Manche "1" --> "0..* \n lstscoresjoueurs" Score : Les scores des joueurs pendant cette manche sont
+
+Carte  <|--  Carte_numerotée
+Carte  <|--  Carte_spéciale
+Carte  <|--  Carte_bonus
+
+Carte_spéciale <|-- Stop
+Carte_spéciale <|-- SecondeChance
+Carte_spéciale <|-- TroisàLaSuite
+
+Multiplication --|> Carte_bonus
+
+Addition --|> Carte_bonus
+
+
+@enduml

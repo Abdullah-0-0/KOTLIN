@@ -1,0 +1,131 @@
+@startuml detaille
+title Flip 7 - Diagramme de classes - Niveau Conception detaillee 
+
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+class Partie {
+  - listeJoueur : List<Joueur>
+  + create(joueurs : List<Joueur>)
+  + lancerPartie()
+  + nouvelleManche() : Manche
+  + donneurSuivant(j : Joueur) : Joueur
+  + estTerminee() : Boolean
+  + vainqueur() : Joueur?
+}
+
+class Manche {
+  - joueurTour : Joueur
+  - donneur : Joueur
+  - partie : Partie
+  + create(donneur : Joueur, partie : Partie)
+  + tour(joueur : Joueur)
+  + tourSuivant()
+  + joueursActif() : List<Joueur>
+  + lancerManche()
+  + estTerminee() : Boolean
+}
+
+class Joueur {
+  - nom : String
+  - scoreTotal : Int
+  - etat : String
+  - cartes : CartesJoueur
+  + create(nom : String)
+  + pioche(pioche : Pioche)
+  + stoppe()
+  + selectionAction()
+  + ajouterScore()
+}
+
+abstract class Tas {
+  - setCartes : List<Carte>
+  + ajouteCarte(carte : Carte)
+  + retireCarte(carte : Carte)
+  + estVide() : Boolean
+}
+class Pioche {
+  + create()
+  + piocher() : Carte
+}
+class Defausse {
+  + create()
+}
+class CartesJoueur {
+  + create()
+  + nbCartesNumero() : Int
+  + aNumero(valeur : Int) : Boolean
+  + aSecondeChance() : Boolean
+  + aBonusFoisDeux() : Boolean
+  + sommeCartesNumero() : Int
+  + sommeBonusAdditif() : Int
+  + calculerScore() : Int
+}
+
+abstract class Carte {
+  - emplacement : Tas
+  + deplacer(t : Tas)
+}
+class CarteNumero {
+  - valeur : Int
+  + create(valeur : Int)
+  + getValeur() : Int
+  + deplacer(t : Tas)
+}
+abstract class CarteBonus {
+  + deplacer(t : Tas)
+}
+class BonusAdditif {
+  - valeur : Int
+  + create(valeur : Int)
+  + getValeur() : Int
+  + deplacer(t : Tas)
+}
+class BonusFoisDeux {
+  + create()
+  + deplacer(t : Tas)
+}
+abstract class CarteSpeciale {
+  + selectionnerJoueur(partie : Partie) : Joueur
+  + {abstract} appliquer(cible : Joueur)
+  + deplacer(t : Tas)
+}
+class Stop {
+  + create()
+  + appliquer(cible : Joueur)
+  + deplacer(t : Tas)
+}
+class SecondeChance {
+  + create()
+  + appliquer(cible : Joueur)
+  + deplacer(t : Tas)
+}
+class TroisALaSuite {
+  + create()
+  + appliquer(cible : Joueur)
+  + deplacer(t : Tas)
+}
+
+Partie "1" -- "2..*" Manche : se deroule en >
+Partie "1" -- "3..*" Joueur : inclut >
+Manche "*" -- "1" Joueur : donneur >
+Manche "*" -- "1" Joueur : joueurTour >
+Manche "1" -- "1" Pioche : pioche >
+Manche "1" -- "1" Defausse : defausse >
+Joueur "1" -- "1" CartesJoueur : possede >
+
+Pioche -down-|> Tas
+Defausse -down-|> Tas
+CartesJoueur -down-|> Tas
+Tas "1" -- "0..*" Carte : contient >
+
+Carte <|-down- CarteNumero
+Carte <|-down- CarteBonus
+Carte <|-down- CarteSpeciale
+CarteBonus <|-down- BonusAdditif
+CarteBonus <|-down- BonusFoisDeux
+CarteSpeciale <|-down- Stop
+CarteSpeciale <|-down- SecondeChance
+CarteSpeciale <|-down- TroisALaSuite
+
+@enduml

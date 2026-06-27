@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CarteNumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.008">
+  <properties/>
+  <testcase name="Tests de la methode equals()" classname="CarteNumTest" time="0.0"/>
+  <testcase name="Carte valeur 7()" classname="CarteNumTest" time="0.0"/>
+  <testcase name="Tests de la methode compareTo()" classname="CarteNumTest" time="0.001"/>
+  <testcase name="Carte valeur -1 err()" classname="CarteNumTest" time="0.001"/>
+  <testcase name="CarteNum valeur  0()" classname="CarteNumTest" time="0.0"/>
+  <testcase name="CarteNum valeur 12()" classname="CarteNumTest" time="0.001"/>
+  <testcase name="Carte valeur 13 err()" classname="CarteNumTest" time="0.001"/>
+  <testcase name="Test de verification de l'import de la bibliotheque()" classname="CarteNumTest" time="0.001"/>
+  <testcase name="Tests des methodes de type de carte (estX)()" classname="CarteNumTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

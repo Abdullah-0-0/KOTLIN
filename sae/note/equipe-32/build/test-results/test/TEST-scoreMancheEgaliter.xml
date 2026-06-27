@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="scoreMancheEgaliter" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.006">
+  <properties/>
+  <testcase name="deux joueur avec le meme score au-dessus scoreFinPartie fait une nouvelle manche()" classname="scoreMancheEgaliter" time="0.003"/>
+  <testcase name="deux joueurs avec le meme score au-dessus de scoreFinPartie termine pas la partie ()" classname="scoreMancheEgaliter" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,124 @@
+@startuml
+class Joueur{
+ -nom:String
+ -prenom:String
+ -score:Int
+ <<create>>(nom:String, prenom:String, score:Int, table : Table, main : Main)
+ ajouteScore()
+}
+abstract class TasDeCarte{
+<<create>>(cartes : <arrayOf>Carte)
+}
+class Pioche{
+ <<create>>(cartes : TasDeCarte)
+ estVide()
+ remplirPioche()
+}
+class Défausse{
+<<create>>(cartes : TasDeCarte)
+}
+class Main{
+ -scoreManche : Int
+ -enJeu : Bool
+  <<create>>(scoreManche : Int, enJeu : Bool)
+ tireUneCarte()
+ defausseLesCartes()
+ defausseUneCartes(carte:CarteSpecial)
+ calculScore()
+ Stop()
+ verifieFlip7()
+}
+class Table{
+ -numManche:Int
+ -donneur : Joueur
+ <<create>>(numManche:Int, donneur : Joueur, joueurs : <arrayOf>Joueur, pioche : Pioche, defausse : Défausse)
+ demarrerManche()
+ finManche()
+ changerDonneur()
+ verifierFinPartie()
+}
+abstract class Carte
+class CarteNumero{
+ -valeur:Int
+ <<create>>(valeur : Int)
+}
+abstract class CarteBonus{
+ -valeur:Int
+ {abstract} operande:String
+}
+abstract class CarteSpecial{
+ -nom:String
+ {abstract} effet(cible:Main)
+}
+class CarteBonusMult{
+<<create>>(valeur : Int, operande : String)
+}
+class CarteBonusAdd{
+<<create>>(valeur : Int, operande : String)
+}
+
+class CarteSpecialStop{
+<<create>>(nom : String)
+}
+class CarteSpecial2ndChance{
+<<create>>(nom : String)
+}
+class CarteSpecialTroisALaSuite{
+<<create>>(nom : String)
+peutRepiocher():Bool
+}
+
+
+Carte <|-- CarteNumero
+Carte <|-- CarteBonus
+Carte <|-- CarteSpecial
+CarteSpecial <|-- CarteSpecialStop
+CarteSpecial <|-- CarteSpecial2ndChance
+CarteSpecial <|-- CarteSpecialTroisALaSuite
+CarteBonus <|-- CarteBonusMult
+CarteBonus <|-- CarteBonusAdd
+TasDeCarte <|-- Pioche
+TasDeCarte <|-- Défausse
+
+
+
+
+Joueur "- joueur 1"-- "- main 1" Main : détient
+
+CarteSpecial "0..9"..>"1 - main" Main : <<use>>
+note on link 
+Affect la main 
+du joueur
+end note
+
+Table "- table 1" -- "3..10 - joueurs" Joueur : contient
+Table "1"-->"1 - pioche" Pioche : conserve
+Table "1"-->"1 - defausse" Défausse : conserve
+
+TasDeCarte "0.1"-->"- cartes 0..94" Carte : possède
+Main "1" --> "cartes 0..14" Carte : contient
+
+
+Main "1"..>"- pioche 1" Table : <<use>>
+note on link 
+Tire une carte de la 
+pioche quand le joueur 
+le demande
+end note
+Main "1"..>"- defausse 1" Table : <<use>>
+note on link 
+Quand le joueur perd 
+ou utilise une carte 
+a effet immediat, 
+donne les carte a la table
+end note
+Pioche "1"..>"-defausse 1" Table : <<use>>
+note on link 
+La pioche demande 
+les cartes défaussé 
+et mélanger quand 
+elle est vide
+end note
+
+@enduml
+

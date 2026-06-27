@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testBonus" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.002">
+  <properties/>
+  <testcase name="plusieurs CarteBonus(Plus) de valeurs differentes additionnent au score()" classname="testBonus" time="0.001"/>
+  <testcase name="plusieurs CarteBonusPlus accumulent aussi en presence d un Flip7()" classname="testBonus" time="0.0"/>
+  <testcase name="le x2 s applique avant accumulation de plusieurs bonus plus()" classname="testBonus" time="0.0"/>
+  <testcase name="trois CarteBonus(Plus) differents additionnent tous au score()" classname="testBonus" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

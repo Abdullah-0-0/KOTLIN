@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOutilCarteEstFlip7" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-06-23T05:49:43.470Z" hostname="u-inf-j-c002-24" time="0.021">
+  <properties/>
+  <testcase name="[1] [], false" classname="TestOutilCarteEstFlip7" time="0.002"/>
+  <testcase name="[2] [[Carte n°1], [Carte n°2], [Carte n°3], [Carte n°4], [Carte n°5], [Carte n°6], [Carte n°7]], true" classname="TestOutilCarteEstFlip7" time="0.001"/>
+  <testcase name="[3] [[Carte n°1], [Carte n°2], [Carte n°3], [Carte n°4], [Carte n°5], [Carte n°6], [Carte n°7], [Carte Bonus x2]], true" classname="TestOutilCarteEstFlip7" time="0.003"/>
+  <testcase name="[4] [[Carte n°1], [Carte n°2], [Carte n°3], [Carte n°4], [Carte n°5], [Carte n°6], [Carte n°7], [Carte Bonus +2]], true" classname="TestOutilCarteEstFlip7" time="0.003"/>
+  <testcase name="[5] [[Carte n°1], [Carte n°2], [Carte n°3], [Carte n°4], [Carte n°5], [Carte n°6], [Carte n°7], [Carte 2nde chance]], true" classname="TestOutilCarteEstFlip7" time="0.001"/>
+  <testcase name="[6] [[Carte n°1], [Carte n°2], [Carte n°3], [Carte n°4], [Carte n°5], [Carte n°6]], false" classname="TestOutilCarteEstFlip7" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

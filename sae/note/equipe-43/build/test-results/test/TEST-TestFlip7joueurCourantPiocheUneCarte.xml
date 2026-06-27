@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestFlip7joueurCourantPiocheUneCarte" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-23T05:49:43.393Z" hostname="u-inf-j-c002-24" time="0.039">
+  <properties/>
+  <testcase name="piocheMancheTerminee()" classname="TestFlip7joueurCourantPiocheUneCarte" time="0.005"/>
+  <testcase name="attenteChoixJoueur()" classname="TestFlip7joueurCourantPiocheUneCarte" time="0.014"/>
+  <testcase name="piochePartieTerminee()" classname="TestFlip7joueurCourantPiocheUneCarte" time="0.016"/>
+  <system-out><![CDATA[{0=0, 1=0, 2=0, 3=36}{0=0, 1=0, 2=0, 3=45}PARTIE_TERMINEE]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

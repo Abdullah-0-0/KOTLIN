@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSectionManche" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.008">
+  <properties/>
+  <testcase name="debut de manche nb carte vaut 0 pour chaque joueur()" classname="TestSectionManche" time="0.003"/>
+  <testcase name="Faire une action passe au joueur suivant()" classname="TestSectionManche" time="0.003"/>
+  <testcase name="une manche ne peut etre jouee qu avec 2 a 4 joueurs (rappel des bornes du constructeur)()" classname="TestSectionManche" time="0.001"/>
+  <testcase name="joueurCourantDitStop fait passer la main au joueur suivant après une action()" classname="TestSectionManche" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

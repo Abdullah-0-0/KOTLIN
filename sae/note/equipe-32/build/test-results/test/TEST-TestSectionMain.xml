@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSectionMain" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.012">
+  <properties/>
+  <testcase name="main avec une seule CarteStop est valide()" classname="TestSectionMain" time="0.001"/>
+  <testcase name="main avec 0 CarteNum mais un bonus est valide()" classname="TestSectionMain" time="0.001"/>
+  <testcase name="calculScore d une main composee uniquement de bonus additifs est positif()" classname="TestSectionMain" time="0.001"/>
+  <testcase name="une main avec un doublon de CarteNum et aucune Carte2ndeChance est invalide()" classname="TestSectionMain" time="0.001"/>
+  <testcase name="calculScore ne retourne jamais une valeur negative, meme avec une main vide()" classname="TestSectionMain" time="0.0"/>
+  <testcase name="main avec 7 CarteNum et 2 bonus reste valide (nb CarteTotale = 9)()" classname="TestSectionMain" time="0.001"/>
+  <testcase name="une main sans aucun doublon de CarteNum est valide()" classname="TestSectionMain" time="0.0"/>
+  <testcase name="main avec un seul CarteBonusPlus est valide (nb CarteBonus = 1)()" classname="TestSectionMain" time="0.0"/>
+  <testcase name="main avec exactement 7 CarteNum differentes est valide (limite haute)()" classname="TestSectionMain" time="0.0"/>
+  <testcase name="main avec deux CarteBonusPlus de meme valeur est invalide (doublon de bonus)()" classname="TestSectionMain" time="0.001"/>
+  <testcase name="main avec 3 Carte2ndeChance est consideree comme valide (nb CarteSpe = 3)()" classname="TestSectionMain" time="0.0"/>
+  <testcase name="main avec deux CarteStop est invalide()" classname="TestSectionMain" time="0.0"/>
+  <testcase name="main avec un CarteBonusPlus et un CarteBonusMultiplie est valide (nb CarteBonus = 2)()" classname="TestSectionMain" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

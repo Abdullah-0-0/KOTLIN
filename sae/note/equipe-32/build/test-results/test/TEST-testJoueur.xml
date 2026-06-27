@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testJoueur" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.01">
+  <properties/>
+  <testcase name="nb de cartes en main jamais negatif()" classname="testJoueur" time="0.003"/>
+  <testcase name="le score toujours superieur ou egal a 0, jamais negatif()" classname="testJoueur" time="0.002"/>
+  <testcase name="apres avoir pioche une carte le nombre de cartes en main reste dans des bornes()" classname="testJoueur" time="0.002"/>
+  <testcase name="nb de cartes en main depasse jamais 22 en debut de partie()" classname="testJoueur" time="0.001"/>
+  <testcase name="le score jamais negatif en debut de partie()" classname="testJoueur" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

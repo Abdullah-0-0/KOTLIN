@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CarteBonusFois" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.004">
+  <properties/>
+  <testcase name="valeur == 2()" classname="CarteBonusFois" time="0.0"/>
+  <testcase name="new CarteBonusMultiplie = pas d'exception()" classname="CarteBonusFois" time="0.001"/>
+  <testcase name="equals(autre CarteBonusMultiplie) - true()" classname="CarteBonusFois" time="0.001"/>
+  <testcase name="equals(CarteBonusPlus(2)) - false()" classname="CarteBonusFois" time="0.0"/>
+  <testcase name="estCarteBonusMultiplie - true()" classname="CarteBonusFois" time="0.0"/>
+  <testcase name="estCarteBonusPlus - false()" classname="CarteBonusFois" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

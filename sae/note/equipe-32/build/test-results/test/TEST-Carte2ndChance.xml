@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Carte2ndChance" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.004">
+  <properties/>
+  <testcase name="est 2nd chance()" classname="Carte2ndChance" time="0.0"/>
+  <testcase name="est carte stop()" classname="Carte2ndChance" time="0.001"/>
+  <testcase name="fait la mm chose q une carte 2nd chance()" classname="Carte2ndChance" time="0.0"/>
+  <testcase name="New 2nd chance()" classname="Carte2ndChance" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

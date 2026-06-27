@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCarte2ndeChanceEstCarte2ndeChance" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-23T05:49:42.815Z" hostname="u-inf-j-c002-24" time="0.003">
+  <properties/>
+  <testcase name="testCarteEstCarteBonusMultiplie()" classname="TestCarte2ndeChanceEstCarte2ndeChance" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xverifierPiocheInitiale" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.019">
+  <properties/>
+  <testcase name="pioche vide leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="nb Carte2ndeChance inferieur a 3 leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="pioche de 95 cartes leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="4 fois la meme Carte2ndeChance leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="nb Carte2ndeChance egal a 3 dans la pioche valide ne leve pas d exception()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="nb Carte3aLaSuite inferieur a 3 leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="doublon de CarteNum(5) dans la pioche leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="nb CarteStop inferieur a 3 leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.0"/>
+  <testcase name="4 fois la meme Carte3aLaSuite leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.0"/>
+  <testcase name="mode debug=true avec pioche incomplete expose bien la taillePioche reelle, pas 94()" classname="xverifierPiocheInitiale" time="0.003"/>
+  <testcase name="nb Carte2ndeChance superieur a 3 leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="pioche de 94 cartes ne leve pas d exception()" classname="xverifierPiocheInitiale" time="0.0"/>
+  <testcase name="nb Carte3aLaSuite superieur a 3 leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.0"/>
+  <testcase name="nb CarteStop superieur a 3 leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="nb CarteStop egal a 3 dans la pioche valide ne leve pas d exception()" classname="xverifierPiocheInitiale" time="0.0"/>
+  <testcase name="nb Carte3aLaSuite egal a 3 dans la pioche valide ne leve pas d exception()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="4 fois la meme CarteStop leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="mode debug=true accepte une pioche incomplete sans lever d exception()" classname="xverifierPiocheInitiale" time="0.001"/>
+  <testcase name="pioche de 93 cartes leve PiocheInvalideException()" classname="xverifierPiocheInitiale" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

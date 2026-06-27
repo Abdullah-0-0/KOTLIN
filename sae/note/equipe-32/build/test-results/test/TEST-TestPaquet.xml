@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestPaquet" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.017">
+  <properties/>
+  <testcase name="pioche vide leve PiocheInvalideException()" classname="TestPaquet" time="0.001"/>
+  <testcase name="pioche de 95 cartes leve PiocheInvalideException()" classname="TestPaquet" time="0.001"/>
+  <testcase name="des appels successifs font diminuer taillePioche()" classname="TestPaquet" time="0.002"/>
+  <testcase name="nb CarteBonus egal a 6 dans la pioche valide ne leve pas d exception()" classname="TestPaquet" time="0.001"/>
+  <testcase name="nb Carte2ndeChance egal a 3 dans la pioche valide ne leve pas d exception()" classname="TestPaquet" time="0.0"/>
+  <testcase name="nb CarteNum superieur a 79 leve PiocheInvalideException()" classname="TestPaquet" time="0.0"/>
+  <testcase name="nb CarteBonus superieur a 6 leve PiocheInvalideException()" classname="TestPaquet" time="0.001"/>
+  <testcase name="nb CarteSpe superieur a 9 leve PiocheInvalideException()" classname="TestPaquet" time="0.0"/>
+  <testcase name="un deuxieme exemplaire de CarteBonusMultiplie leve PiocheInvalideException()" classname="TestPaquet" time="0.001"/>
+  <testcase name="nb CarteSpe egal a 9 dans la pioche valide ne leve pas d exception()" classname="TestPaquet" time="0.001"/>
+  <testcase name="nb Carte2ndeChance superieur a 3 leve PiocheInvalideException()" classname="TestPaquet" time="0.0"/>
+  <testcase name="un nombre incorrect d exemplaires de CarteNum(x) leve PiocheInvalideException()" classname="TestPaquet" time="0.001"/>
+  <testcase name="nb Carte3aLaSuite = 3 dans la pioche valide ne leve pas d exception()" classname="TestPaquet" time="0.0"/>
+  <testcase name="pioche de 94 cartes ne leve pas d exception()" classname="TestPaquet" time="0.0"/>
+  <testcase name="CarteNum(x) est presente x fois dans la pioche valide, sauf CarteNum(0) presente 1 fois()" classname="TestPaquet" time="0.001"/>
+  <testcase name="nb Carte3aLaSuite superieur a 3 leve PiocheInvalideException()" classname="TestPaquet" time="0.001"/>
+  <testcase name="nb CarteNum egal a 79 dans la pioche valide ne leve pas d exception()" classname="TestPaquet" time="0.001"/>
+  <testcase name="nb CarteStop superieur a 3 leve PiocheInvalideException()" classname="TestPaquet" time="0.0"/>
+  <testcase name="CarteBonusMultiplie est presente exactement 1 fois dans la pioche valide()" classname="TestPaquet" time="0.0"/>
+  <testcase name="nb CarteStop egal a 3 dans la pioche valide ne leve pas d exception()" classname="TestPaquet" time="0.001"/>
+  <testcase name="pioche de 93 cartes leve PiocheInvalideException()" classname="TestPaquet" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

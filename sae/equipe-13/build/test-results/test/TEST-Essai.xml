@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Essai" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-12T10:07:20" hostname="u-inf-j-c001-14" time="0.028">
+  <properties/>
+  <testcase name="testestCarte2ndeChance03()" classname="Essai" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculScore" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.004">
+  <properties/>
+  <testcase name="une seule CarteNum 5 donne un score de 5()" classname="calculScore" time="0.001"/>
+  <testcase name="Flip7 ajoute un bonus de 15 points()" classname="calculScore" time="0.0"/>
+  <testcase name="main vide donne un score de 0()" classname="calculScore" time="0.0"/>
+  <testcase name="CarteBonusMultiplie et CarteBonusPlus se combinent dans l ordre()" classname="calculScore" time="0.0"/>
+  <testcase name="Flip7 avec CarteBonusMultiplie ne double pas le bonus de 15()" classname="calculScore" time="0.0"/>
+  <testcase name="CarteBonusMultiplie double le score des CarteNum()" classname="calculScore" time="0.001"/>
+  <testcase name="CarteBonusPlus s ajoute apres les CarteNum()" classname="calculScore" time="0.0"/>
+  <testcase name="deux CarteNum s additionnent()" classname="calculScore" time="0.0"/>
+  <testcase name="une seule CarteNum 0 donne un score de 0()" classname="calculScore" time="0.0"/>
+  <testcase name="Flip7 avec CarteBonusPlus s ajoute avant le bonus de 15()" classname="calculScore" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="estFlip7constructeur" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.04">
+  <properties/>
+  <testcase name="joueurCourant initial est 0()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="defausse initiale est vide()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="3 joueurs pioche valide scoreFinPartie 50()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="nbJoueurs different de la taille de la liste renvoie ListeJoueursInvalideException()" classname="estFlip7constructeur" time="0.001"/>
+  <testcase name="taillePioche initiale est 94()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="1 joueur renvoie NombreJoueursInvalideException()" classname="estFlip7constructeur" time="0.001"/>
+  <testcase name="2 joueurs pioche valide scoreFinPartie 200()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="pioche invalide hors debug leve PiocheInvalideException()" classname="estFlip7constructeur" time="0.003"/>
+  <testcase name="4 joueurs pioche valide scoreFinPartie 200()" classname="estFlip7constructeur" time="0.003"/>
+  <testcase name="score initial est 0 pour le joueur 0()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="score initial est 0 pour le joueur 1()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="scoreFinPartie 201 renvoie ScoreFinPartieInvalideException()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="5 joueurs renvoie NombreJoueursInvalideException()" classname="estFlip7constructeur" time="0.003"/>
+  <testcase name="etatJoueur initial est JOUE_ENCORE pour tous()" classname="estFlip7constructeur" time="0.002"/>
+  <testcase name="etatPartie initial est ATTENTE_CHOIX_JOUEUR()" classname="estFlip7constructeur" time="0.001"/>
+  <testcase name="scoreFinPartie 49 renvoie ScoreFinPartieInvalideException()" classname="estFlip7constructeur" time="0.001"/>
+  <testcase name="liste de joueurs vide renvoie ListeJoueursInvalideException()" classname="estFlip7constructeur" time="0.0"/>
+  <testcase name="main de chaque joueur est initialement vide()" classname="estFlip7constructeur" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

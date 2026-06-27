@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestJoueurCourantPiocheUneCarteCasAdditionnels" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.014">
+  <properties/>
+  <testcase name="flip7 se declenche des la 7e CarteNum, avant qu une CarteBonusMultiplie suivante ne puisse etre piochee()" classname="TestJoueurCourantPiocheUneCarteCasAdditionnels" time="0.004"/>
+  <testcase name="appel en etat NOUVELLE_MANCHE leve EtatPartieInvalideException()" classname="TestJoueurCourantPiocheUneCarteCasAdditionnels" time="0.004"/>
+  <testcase name="pioche reduite a sa derniere carte permet encore une pioche()" classname="TestJoueurCourantPiocheUneCarteCasAdditionnels" time="0.001"/>
+  <testcase name="doublon sauve par Carte2ndeChance puis nouveau doublon sans 2ndeChance restante met le joueur a PERDU()" classname="TestJoueurCourantPiocheUneCarteCasAdditionnels" time="0.001"/>
+  <testcase name="appel en etat PARTIE_TERMINEE leve EtatPartieInvalideException()" classname="TestJoueurCourantPiocheUneCarteCasAdditionnels" time="0.002"/>
+  <testcase name="la carte retournee par joueurCourantPiocheUneCarte est la meme reference que celle ajoutee en main()" classname="TestJoueurCourantPiocheUneCarteCasAdditionnels" time="0.001"/>
+  <testcase name="doublon avec deux Carte2ndeChance en main ne consomme qu une seule des deux()" classname="TestJoueurCourantPiocheUneCarteCasAdditionnels" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

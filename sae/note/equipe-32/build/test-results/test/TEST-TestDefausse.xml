@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestDefausse" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.046">
+  <properties/>
+  <testcase name="nb Carte3aLaSuite jamais negatif()" classname="TestDefausse" time="0.004"/>
+  <testcase name="nb CarteStop dans la defausse n est jamais negatif()" classname="TestDefausse" time="0.002"/>
+  <testcase name="nb CarteBonus est jamais negatif()" classname="TestDefausse" time="0.002"/>
+  <testcase name="nb CarteBonus ne depasse jamais 6()" classname="TestDefausse" time="0.003"/>
+  <testcase name="apres un doublon defausse toutes les bornes restent respectees()" classname="TestDefausse" time="0.003"/>
+  <testcase name="nb Carte2ndeChance jamais negatif()" classname="TestDefausse" time="0.003"/>
+  <testcase name="nb CarteNum jamais negatif()" classname="TestDefausse" time="0.003"/>
+  <testcase name="nb Carte2ndeChance ne depasse jamais 3()" classname="TestDefausse" time="0.002"/>
+  <testcase name="taille jamais 94 cartes()" classname="TestDefausse" time="0.002"/>
+  <testcase name="vide au debut de la partie a 0 carte()" classname="TestDefausse" time="0.002"/>
+  <testcase name="nb CarteSpe ne depasse jamais 9()" classname="TestDefausse" time="0.003"/>
+  <testcase name="nb CarteSpe jamais negatif()" classname="TestDefausse" time="0.002"/>
+  <testcase name="nb CarteStop ne depasse jamais 3()" classname="TestDefausse" time="0.002"/>
+  <testcase name="nb CarteNum ne depasse jamais 79()" classname="TestDefausse" time="0.002"/>
+  <testcase name="nb Carte3aLaSuite ne depasse jamais 3()" classname="TestDefausse" time="0.002"/>
+  <testcase name="taille jamais negative()" classname="TestDefausse" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

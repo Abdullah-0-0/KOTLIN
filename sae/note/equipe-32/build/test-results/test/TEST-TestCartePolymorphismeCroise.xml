@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCartePolymorphismeCroise" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.009">
+  <properties/>
+  <testcase name="CarteStop n est aucun autre type de carte()" classname="TestCartePolymorphismeCroise" time="0.0"/>
+  <testcase name="comparaison entre CarteNum et CarteStop ne leve pas d exception()" classname="TestCartePolymorphismeCroise" time="0.001"/>
+  <testcase name="Carte3aLaSuite equals null est false()" classname="TestCartePolymorphismeCroise" time="0.001"/>
+  <testcase name="CarteBonusPlus equals null est false()" classname="TestCartePolymorphismeCroise" time="0.0"/>
+  <testcase name="CarteBonusMultiplie equals null est false()" classname="TestCartePolymorphismeCroise" time="0.0"/>
+  <testcase name="getValeur de CarteBonusMultiplie renvoie une valeur fixe coherente()" classname="TestCartePolymorphismeCroise" time="0.0"/>
+  <testcase name="CarteBonusMultiplie n est aucun autre type de carte()" classname="TestCartePolymorphismeCroise" time="0.001"/>
+  <testcase name="Carte3aLaSuite n est aucun autre type de carte()" classname="TestCartePolymorphismeCroise" time="0.001"/>
+  <testcase name="CarteNum equals null est false()" classname="TestCartePolymorphismeCroise" time="0.0"/>
+  <testcase name="Carte2ndeChance equals null est false()" classname="TestCartePolymorphismeCroise" time="0.0"/>
+  <testcase name="CarteStop equals null est false()" classname="TestCartePolymorphismeCroise" time="0.0"/>
+  <testcase name="Carte2ndeChance n est aucun autre type de carte()" classname="TestCartePolymorphismeCroise" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

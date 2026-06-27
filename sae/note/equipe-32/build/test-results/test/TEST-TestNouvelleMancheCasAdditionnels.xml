@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNouvelleMancheCasAdditionnels" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.005">
+  <properties/>
+  <testcase name="appeler nouvelleManche deux fois de suite leve EtatPartieInvalideException au 2e appel()" classname="TestNouvelleMancheCasAdditionnels" time="0.004"/>
+  <testcase name="chainage complet MANCHE_TERMINEE vers scoreManche vers NOUVELLE_MANCHE vers nouvelleManche vers ATTENTE_CHOIX_JOUEUR()" classname="TestNouvelleMancheCasAdditionnels" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

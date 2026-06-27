@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CarteStop" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.003">
+  <properties/>
+  <testcase name="fait la meme chose q une carte stop()" classname="CarteStop" time="0.001"/>
+  <testcase name="est carte trois a la suite()" classname="CarteStop" time="0.0"/>
+  <testcase name="est carte 2ndchanche()" classname="CarteStop" time="0.001"/>
+  <testcase name="new CarteStop()" classname="CarteStop" time="0.0"/>
+  <testcase name="est carte stop()" classname="CarteStop" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,4 @@
+report.file=/var/home/E254108E/reseau/Perso/Documents/BUT 1/Semestre 2/SAE/sae_s201_kotlin/equipe-32/build/kover/bin-reports/test.ic
+exclude=android.*
+exclude=com.android.*
+exclude=jdk.internal.*

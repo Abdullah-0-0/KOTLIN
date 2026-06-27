@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="estFlip7" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.002">
+  <properties/>
+  <testcase name="CarteNum 0 a 6 est un Flip7()" classname="estFlip7" time="0.0"/>
+  <testcase name="CarteNum 0 a 5 (6 cartes seulement) n est pas un Flip7()" classname="estFlip7" time="0.0"/>
+  <testcase name="main vide n est pas un Flip7()" classname="estFlip7" time="0.0"/>
+  <testcase name="CarteNum 0 a 6 plus un CarteBonusPlus reste un Flip7()" classname="estFlip7" time="0.001"/>
+  <testcase name="CarteNum 1 a 7 est un Flip7()" classname="estFlip7" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,4 @@
+report.file=/var/home/E252964L/reseau/Perso/aaS201/build/kover/bin-reports/test.ic
+exclude=android.*
+exclude=com.android.*
+exclude=jdk.internal.*

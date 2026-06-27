@@ -1,0 +1,116 @@
+@startuml flip7
+
+abstract class Carte{
+  -id : String
+
+}
+
+class Carte_numerotée{
+  -num : Int
+  <<create>> Carte_numerotée(id : String, num : Int)
+}
+
+abstract class Carte_spéciale{}
+
+class Stop{
+  <<create>> Stop(id : String)
+  +stopperunjoueur(cible : Joueur)
+}
+
+class SecondeChance{
+  <<create>> SecondeChance(id : String)
+  +ressusciter(cible : Joueur)
+}
+
+class TroisàLaSuite{
+  <<create>> TroisàLaSuite(id : String)
+  +faitPiocherTrois(cible : Joueur)
+}
+
+abstract class Carte_bonus{}
+
+class Multiplication{
+  -facteur : Int
+  <<create>> Multiplication(id : String, facteur : Int)
+  +multiplieScore(scoredujoueur : Score)
+}
+
+class Addition{
+  -valeur : Int
+  <<create>> Addition(id : String, valeur : Int)
+  +ajouteScore(scoredujoueur : Score)
+}
+
+class Joueur{
+  -pseudo : String
+  <<create>> Joueur(pseudo : String)
+  +continue()
+  +arreter()
+}
+
+
+class Score{
+  -pointTotal : Int 
+  -nbPointParManche : ArrayOf<Int>
+  +Ajoutduscore (score : Int)
+  +calculDuTotal()
+}
+
+class Manche{
+  -numManche : Int
+  <<create>> Manche(numManche: Int)
+  +éliminer(perso : Joueur)
+  +estEliminé(perso : Joueur): Boolean
+  +piocheVide(): Boolean
+  +donneMVP() : Joueur
+  +donneScore(perso : Joueur): Int
+  +debutManche()
+  +finManche()
+  +initialiserPioche(cartes : List<Carte>)
+  +ajouterCarteDefausse(carte : Carte)
+  +calculerScoreJoueur(joueur : Joueur) : Int
+  +enregistreScore()
+}
+'journal enregistre les information de chaque manche (scores ,mvp,les eliminé,etc... )
+' à finir !!!
+class Journal{
+  - mvp : Joueur
+  - elimines : ArrayOf<Joueur?>
+  <<create>> Journal(scores : ArrayOf<Score>, mvp : Joueur, elimines : ArrayOf<Joueur?>)
+  +donneJournalManche() : String
+}
+
+class Partie{
+  <<create>> Partie()
+  +ajoutJoueur(nouveau : Joueur)
+  +debutDePartie()
+  +finDePartie()
+}
+
+
+Partie "1" --> "1..* \n lstmanches" Manche : la partie a eu pour manches
+Partie"1" --> "2..* \n participants" Joueur : participe
+
+Joueur "1" --> "0..* \n main" Carte : possède comme cartes
+Joueur "1" --> "1 \n scoreGlobal" Score:  a comme score pendant cette partie
+
+Journal "1" --> "1..*\n scores" Score : contient les scores de tous les joueurs pendant la manche
+
+Manche "1" --> "0..94 \n lstcartespioche" Carte : Les cartes faisant parties de la pioche sont
+Manche "1" --> "0..94 \n lstcartesdéfausse" Carte : Les cartes faisant parties de la défausse sont
+Manche "1" --> "0..* \n lstscoresjoueurs" Score : Les scores des joueurs pendant cette manche sont
+Manche "1" --> "1 \n journalmanche" Journal : Les stats de la manche sont stockées dans
+Carte  <|--  Carte_numerotée
+Carte  <|--  Carte_spéciale
+Carte  <|--  Carte_bonus
+
+Carte_spéciale <|-- Stop
+Carte_spéciale <|-- SecondeChance
+Carte_spéciale <|-- TroisàLaSuite
+
+Multiplication --|> Carte_bonus
+
+Addition --|> Carte_bonus
+
+
+@enduml

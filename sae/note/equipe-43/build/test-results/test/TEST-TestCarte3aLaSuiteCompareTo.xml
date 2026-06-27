@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCarte3aLaSuiteCompareTo" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-23T05:49:42.853Z" hostname="u-inf-j-c002-24" time="0.011">
+  <properties/>
+  <testcase name="[1] [Carte n°12], 1" classname="TestCarte3aLaSuiteCompareTo" time="0.001"/>
+  <testcase name="[2] [Carte Bonus +10], 1" classname="TestCarte3aLaSuiteCompareTo" time="0.001"/>
+  <testcase name="[3] [Carte Bonus x2], 1" classname="TestCarte3aLaSuiteCompareTo" time="0.002"/>
+  <testcase name="[4] [Carte 3 à la suite], 0" classname="TestCarte3aLaSuiteCompareTo" time="0.001"/>
+  <testcase name="[5] [Carte Stop], -1" classname="TestCarte3aLaSuiteCompareTo" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,88 @@
+@startuml
+skinparam linetype ortho
+skinparam classAttributeIconSize 0
+
+abstract class Carte {
+  nom
+}
+
+abstract class CarteSpe {
+  desc
+}
+
+class Stop
+class Trois
+class SecondeChance
+
+class CarteNumero {
+  valeur
+}
+
+abstract class CarteBonus
+
+class Main {
+  calculerScore()
+  scorePartie()
+  scoreManche()
+}
+
+class Paquet {
+  piocher()
+  estVide()
+}
+
+class Defausse {
+  ajouter()
+  vider()
+}
+
+class Joueur {
+  nom
+  scoreTotal
+  estDanslaManche
+  Flip7
+  sauter()
+  stopper()
+}
+
+class Manche {
+  demarrer()
+  distribuer()
+  terminer()
+}
+
+class Partie {
+  scoreObjectif
+  Demarrer()
+  JouerManche()
+  EstTerminer()
+  DeterminerVainqueur()
+}
+
+class Plus {
+  points
+}
+
+class Fois
+
+Manche "*"<--"1" Partie
+Paquet "1"<--"1" Manche
+Paquet "1"<--"1" Defausse : réapprovisionnement
+Defausse "1"<--"1" Manche
+Carte "0..94"<--"1" Defausse
+Carte "0..94"<--"1" Paquet
+CarteSpe --|> Carte
+CarteNumero --|> Carte
+CarteBonus --|> Carte
+Stop --|> CarteSpe
+Trois --|> CarteSpe
+SecondeChance --|> CarteSpe
+Plus --|> CarteBonus
+Fois --|> CarteBonus
+CarteNumero "0..7"<--"1" Main
+SecondeChance "0..1"<--"1" Main
+CarteBonus "0..6"<--"1" Main
+CarteSpe "0..8"<--"1" Main
+Main "1"<--"1" Joueur
+Joueur "2..4"<--"1..*" Manche
+@enduml

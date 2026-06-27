@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestJoueurCourantDitStopCasAdditionnels" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.017">
+  <properties/>
+  <testcase name="appel en ATTENTE_CHOIX_JOUEUR fait passer le joueur courant a STOP()" classname="TestJoueurCourantDitStopCasAdditionnels" time="0.003"/>
+  <testcase name="joueur restant superieur a 0 et joueur suivant existe alors etat revient a ATTENTE_CHOIX_JOUEUR()" classname="TestJoueurCourantDitStopCasAdditionnels" time="0.004"/>
+  <testcase name="joueur deja STOP qui redit stop leve JoueurNonActifException()" classname="TestJoueurCourantDitStopCasAdditionnels" time="0.002"/>
+  <testcase name="joueur PERDU qui redit stop leve JoueurNonActifException()" classname="TestJoueurCourantDitStopCasAdditionnels" time="0.001"/>
+  <testcase name="appel en ATTENTE_CIBLE_STOP leve EtatPartieInvalideException()" classname="TestJoueurCourantDitStopCasAdditionnels" time="0.002"/>
+  <testcase name="joueurCourant pointe bien sur le joueur suivant apres un stop, pas n importe lequel()" classname="TestJoueurCourantDitStopCasAdditionnels" time="0.002"/>
+  <testcase name="dernier joueur actif dit stop termine la manche()" classname="TestJoueurCourantDitStopCasAdditionnels" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

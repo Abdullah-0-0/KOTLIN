@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Carte3alasuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.003">
+  <properties/>
+  <testcase name="new carte 3alasuite()" classname="Carte3alasuite" time="0.0"/>
+  <testcase name="est carte stop()" classname="Carte3alasuite" time="0.0"/>
+  <testcase name="est carte3alasuite()" classname="Carte3alasuite" time="0.001"/>
+  <testcase name="fait la meme chose q une carte 3 a la suite()" classname="Carte3alasuite" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

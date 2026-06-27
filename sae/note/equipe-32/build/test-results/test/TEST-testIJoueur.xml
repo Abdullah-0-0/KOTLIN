@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testIJoueur" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.006">
+  <properties/>
+  <testcase name="donneNom() renvoie bien le nom fourni au joueur()" classname="testIJoueur" time="0.004"/>
+  <testcase name="deux IJoueur avec le même nom sont acceptés()" classname="testIJoueur" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

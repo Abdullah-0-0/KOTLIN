@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestJoueurCourantCibleStopCasAdditionnels" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-06-24T21:10:12" hostname="u-inf-j-c003-12" time="0.014">
+  <properties/>
+  <testcase name="appel en etat MANCHE_TERMINEE leve EtatPartieInvalideException()" classname="TestJoueurCourantCibleStopCasAdditionnels" time="0.003"/>
+  <testcase name="appel en etat NOUVELLE_MANCHE leve EtatPartieInvalideException()" classname="TestJoueurCourantCibleStopCasAdditionnels" time="0.0"/>
+  <testcase name="appel en etat ATTENTE_CIBLE_3SUITE leve EtatPartieInvalideException()" classname="TestJoueurCourantCibleStopCasAdditionnels" time="0.003"/>
+  <testcase name="appel en etat PARTIE_TERMINEE leve EtatPartieInvalideException()" classname="TestJoueurCourantCibleStopCasAdditionnels" time="0.004"/>
+  <testcase name="numero de cible egal a nbJoueurs leve IndiceJoueurInvalideException()" classname="TestJoueurCourantCibleStopCasAdditionnels" time="0.001"/>
+  <testcase name="numero de cible negatif leve IndiceJoueurInvalideException()" classname="TestJoueurCourantCibleStopCasAdditionnels" time="0.0"/>
+  <testcase name="carte passee differente de la derniere carte tiree leve CarteInvalideException()" classname="TestJoueurCourantCibleStopCasAdditionnels" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
